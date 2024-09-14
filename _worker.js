@@ -5,20 +5,18 @@ let proxyIP = '';
 
 let addresses = [
 	//当sub为空时启用本地优选域名/优选IP，若不带端口号 TLS默认端口为443，#号后为备注别名
-	'cf.090227.xyz:443#加入我的频道t.me/CMLiussss解锁更多优选节点',
-	'time.is#你可以只放域名 如下',
-	'www.visa.com.sg',
-	'skk.moe#也可以放域名带端口 如下',
+	'cf.090227.xyz:443',
+	'ip.sb:2053',
+	'visa.cn:2083',
+	'skk.moe:2087',
 	'www.wto.org:8443',
-	'www.csgo.com:2087#节点名放在井号之后即可',
-	'icook.hk#若不带端口号默认端口为443',
-	'104.17.152.41#IP也可以',
-	//'[2606:4700:e7:25:4b9:f8f8:9bfb:774a]#IPv6也OK',
+	'usa.cmbaby.mom',
+	'icook.tw:2096',
 ];
 
-let sub = '';// 'trojan.fxxk.dedyn.io' 
-let subconverter = 'apiurl.v1.mk';// clash订阅转换后端，目前使用肥羊的订阅转换功能。自带虚假节点信息防泄露
-let subconfig = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_Mini.ini"; //订阅配置文件
+let sub = 'trojan.fxxk.dedyn.io'; 
+let subconverter = 'subapi.fxxk.dedyn.io';// clash订阅转换后端，目前使用肥羊的订阅转换功能。自带虚假节点信息防泄露
+let subconfig = "https://raw.githubusercontent.com/kmcherry/ACL4SSR/main/Clash/config/ACL4SSR_Online_Full_MultiMode(GSU)"; //订阅配置文件
 let RproxyIP = 'false';
 
 let addressesapi = [];
